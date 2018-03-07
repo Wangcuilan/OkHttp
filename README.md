@@ -2,11 +2,9 @@
 Android网络请求框架
  
  
-使用说明：
+使用说明：远程加载JitPack包
 
- 远程加载JitPack包
-
- 第一步，在项目根目录下的build.gradle里添加 maven { url "https://jitpack.io" }引用：
+第一步，在项目根目录下的build.gradle里添加 maven { url "https://jitpack.io" }引用：
  
 	allprojects {
 		repositories {
