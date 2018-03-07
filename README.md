@@ -1,6 +1,28 @@
 # OkHttp
 Android网络请求框架
  
+ 
+使用说明：
+
+ 远程加载JitPack包
+
+ 第一步，在项目根目录下的build.gradle里添加 maven { url "https://jitpack.io" }引用：
+ 
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+ 
+第二步，在项目的app模块下的build.gradle里加：
+
+	dependencies {
+	        compile 'com.github.Sen-1996:OkHttp:v1.0.0'
+	}
+
+
+ 
 请求示列：
  
  
