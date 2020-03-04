@@ -16,7 +16,7 @@ Android网络请求框架
 第二步，在项目的app模块下的build.gradle里加：
 
 	dependencies {
-	        compile 'com.github.Sen-1996:OkHttp:v1.0.0'
+	        implementation 'com.github.Sen-1996:OkHttp:v1.0.0'
 	}
 
 
