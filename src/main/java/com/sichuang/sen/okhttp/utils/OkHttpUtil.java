@@ -52,7 +52,7 @@ public class OkHttpUtil {
             while (iterator.hasNext()) {
                 String key = iterator.next();
                 Object value = params.get(key);
-                builder.add(key, value.toString());
+                builder.add(key, value == null ? "" : value.toString());
             }
         }
         return builder;
@@ -109,7 +109,7 @@ public class OkHttpUtil {
             while (iterator.hasNext()) {
                 String key = iterator.next();
                 Object value = params.get(key);
-                multipartBuilder.addFormDataPart(key, value.toString());
+                multipartBuilder.addFormDataPart(key, value == null ? "" : value.toString());
             }
         }
         //设置文件列表
